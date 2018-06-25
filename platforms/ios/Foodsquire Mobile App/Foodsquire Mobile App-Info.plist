@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>Foodsquire Mobile App</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIcons</key>
+	<dict/>
+	<key>CFBundleIcons~ipad</key>
+	<dict/>
+	<key>CFBundleIdentifier</key>
+	<string>com.foodsquire.mobileapp</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.3</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.foodsquire.mobileapp</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.foodsquire.mobileapp</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>REVERSED_CLIENT_ID</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.402245806775-vsnc22opbodba6qslf77631tkumik7fe</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>3.3</string>
+	<key>Google Maps API Key</key>
+	<string>AIzaSyAKFavxKVr3RimkwXKeMpqc1g4oHsi3B4k</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>accounts.google.com</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>This app requires bluetooth access to function properly.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>This app requires calendar access to function properly.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>This app requires contacts access to function properly.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Your current location will be used to find nearby discounts and promotions. As you travel to different towns and cities we will alert you of anything that is worth knowing. We also use it to find restaurants near you when searching.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Your current location will be used to find nearby discounts and promotions. As you travel to different towns and cities we will alert you of anything that is worth knowing. We also use it to find restaurants near you when searching.</string>
+	<key>NSMainNibFile</key>
+	<string></string>
+	<key>NSMainNibFile~ipad</key>
+	<string></string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app requires microphone access to function properly.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>This app requires motion detection access to function properly.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>This app requires reminders access to function properly.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UIInterfaceOrientation</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>need camera access to take pictures</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>need to photo library access to get pictures from there</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>need location access to find things nearby</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>need to photo library access to save pictures there</string>
+</dict>
+</plist>

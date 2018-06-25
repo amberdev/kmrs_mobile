@@ -1,0 +1,76 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "cordova-plugin-facebookads": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "cordova-plugin-googlemaps-plus": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "cordova-plugin-googleplus": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "cordova-plugin-request-location-accuracy": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "cordova-plugin-x-toast": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "cordova.plugins.diagnostic": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "phonegap-plugin-push": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "cordova-plugin-google-analytics": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "cordova-plugin-buildinfo": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    }
+  },
+  "dependent_plugins": {
+    "com.googlemaps.ios": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "cordova-facebook-audnet-sdk": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "cordova-plugin-extension": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.foodsquire.mobileapp"
+    }
+  }
+}

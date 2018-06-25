@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.foodsquire.mobileapp" version="3.3" versionCode="29" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <feature name="LocalStorage">
+        <param name="osx-package" value="CDVLocalStorage" />
+    </feature>
+    <name>Foodsquire Mobile App</name>
+    <description>
+        Foodsquire Mobile App.
+    </description>
+    <author email="aayushkansal537@gmail.com" href="http://cordova.io">
+        Foodsquire Mobile App
+    </author>
+    <allow-navigation href="*" />
+    <content src="index.html" />
+    <preference name="orientation" value="portrait" />
+    <preference name="android-build-tool" value="gradle" />
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+    <gap:plugin name="phonegap-plugin-push" source="npm" spec="1.9.0">
+        <param name="SENDER_ID" value="491618252405" />
+    </gap:plugin>
+    <gap:plugin name="com.paypal.cordova.mobilesdk" source="npm" />
+    <gap:plugin name="cordova-plugin-device" source="npm" />
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
+    <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
+    <gap:plugin name="cordova-plugin-geolocation" source="npm" spec="1.0.1" />
+    <gap:plugin name="cordova-plugin-network-information" source="npm" />
+    <gap:plugin name="cordova-plugin-request-location-accuracy" source="npm" spec="2.2.0" />
+    <gap:plugin name="cordova-plugin-x-toast" source="npm" spec="2.6.0" />
+    <gap:plugin source="git" spec="https://github.com/razorpay/razorpay-cordova.git" />
+    <gap:plugin name="cordova-plugin-media" source="npm" spec="3.0.0" />
+    <gap:plugin name="cordova.plugins.diagnostic" source="npm" spec="4.0.3" />
+    <gap:plugin name="cordova-plugin-googlemaps-plus" source="npm">
+        <param name="API_KEY_FOR_ANDROID" value="AIzaSyDAwrq1ial39lAGZx6jx0WZdZ-Qg4Z94cs" />
+        <param name="API_KEY_FOR_IOS" value="AIzaSyAKFavxKVr3RimkwXKeMpqc1g4oHsi3B4k" />
+    </gap:plugin>
+    <gap:plugin name="cordova-plugin-buildinfo" source="npm" spec="1.1.0" />
+    <gap:plugin name="cordova-plugin-googleplus" source="npm">
+        <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.402245806775-vsnc22opbodba6qslf77631tkumik7fe" />
+    </gap:plugin>
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="fullscreen" value="false" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <access origin="*" />
+    <access launch-external="yes" origin="tel:*" />
+    <gap:config-file parent="/manifest" platform="android">
+        <supports-screens android:largeScreens="true" android:smallScreens="true" android:xlargeScreens="true" />
+        <application android:theme="@android:style/Theme.NoTitleBar">
+        </application>
+    </gap:config-file>
+    <preference name="phonegap-version" value="cli-7.0.1" />
+    <gap:plugin name="cordova-plugin-camera" source="npm" spec="2.4.1" />
+    <gap:plugin name="cordova-plugin-file-transfer" source="npm" spec="1.6.2" />
+    <gap:plugin source="git" spec="https://github.com/danwilson/google-analytics-plugin.git" />
+    <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
+        <string>need camera access to take pictures</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
+        <string>need to photo library access to get pictures from there</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
+        <string>need location access to find things nearby</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryAddUsageDescription">
+        <string>need to photo library access to save pictures there</string>
+    </edit-config>
+</widget>
